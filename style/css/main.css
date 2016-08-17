@@ -1,0 +1,25 @@
+.center-ver {
+  padding-top: 15%; }
+
+.center-hor {
+  text-align: center; }
+
+.unselectable {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+html {
+  font-family: Inconsolata, sans-serif;
+  font-size: 40px;
+  background-color: #1D1F21; }
+
+body {
+  color: #e0e0e0; }
+
+#welcome {
+  color: #ee6666; }
+
+/*# sourceMappingURL=main.css.map */

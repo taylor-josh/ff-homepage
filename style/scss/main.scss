@@ -1,0 +1,25 @@
+@import 'mixins/prefix';
+
+.center-ver{
+  padding-top: 15%;
+}
+.center-hor{
+  text-align: center;
+}
+
+.unselectable{
+  @include prefix((user-select: none), webkit ms moz o);
+}
+
+html{
+  font-family: Inconsolata, sans-serif;
+  font-size: 40px;
+  background-color: #1D1F21;
+}
+body{
+  color: #e0e0e0;
+}
+
+#welcome{
+  color: #ee6666;
+}
