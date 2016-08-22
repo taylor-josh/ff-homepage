@@ -1,8 +1,8 @@
-function timer(){
-  function pad(n){
-    return (n < 10) ? '0' + n : n;
-  }
+function pad(n){
+  return (n < 10) ? '0' + n : n;
+}
 
+function timer(){
   var now   = new Date,
       // Math, yo. If hrs divides cleanly by 12, that is the hr. Otherwise, 12
       hrs   = now.getHours() % 12 || 12,
@@ -15,20 +15,12 @@ function timer(){
 }
 
 function getDate(){
-  var today = new Date;
-  var dd    = today.getDay();
-  var mm    = today.getMonth() + 1;
-  var yyyy  = today.getFullYear();
+  var today = new Date,
+      dd    = today.getDate(),
+      mm    = today.getMonth() + 1,
+      yyyy  = today.getFullYear();
 
-  if(dd < 10){
-    dd ='0' + dd;
-  }
-
-  if(mm < 10){
-    mm ='0' + mm;
-  }
-
-  today = mm + ' - ' + dd + ' - ' + yyyy;
+  today = [pad(mm), pad(dd), yyyy].join('-');
   document.getElementById('date').innerHTML = today;
 }
 
