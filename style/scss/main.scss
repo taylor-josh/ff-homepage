@@ -1,7 +1,7 @@
 @import 'mixins/prefix';
 
 .center-ver{
-  padding-top: 15%;
+  padding-top: 12%;
 }
 .center-hor{
   text-align: center;
@@ -13,7 +13,7 @@
 
 html{
   font-family: Inconsolata, sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   background-color: #1e1c31;
 }
 body{
@@ -22,4 +22,8 @@ body{
 
 #welcome{
   color: #63e9cd;
+}
+
+#time{
+  font-size: 110px;
 }
