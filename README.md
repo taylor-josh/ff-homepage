@@ -1,4 +1,4 @@
-## A Simple Startpage Built to enhance my Firefox Experience##
+## A Simple Startpage Built to enhance my Firefox Experience ##
 
 ![FF Home](/img/20170116-ffhomepage.png)
 
